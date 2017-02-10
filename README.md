@@ -1,2 +1,2 @@
-# coding42
+# Coding42
 Personal blog
