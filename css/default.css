@@ -5,7 +5,7 @@ body {
 }
 
 div#wrapper {
-    background: rgba(230, 230, 230, .8);
+    background: rgba(230, 230, 230, .85);
     margin: 0 auto 0 auto;
     width: 600px;
     padding: 0 25px;
@@ -26,8 +26,38 @@ div#logo a {
     text-decoration: none;
 }
 
+span#social {
+    margin-left: 15px;
+}
+
+#social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#social-twitter {
+    background-color: rgb(41, 170, 225);
+    padding: 11px 6px 5px 7px;
+    margin-right: 2px;
+}
+
+#social-linkedin {
+    background-color: #0077b5;
+    padding: 11px 7px 5px 7px;
+    margin-right: 2px;
+}
+
+#social-stackoverflow {
+    background-color: rgb(36, 39, 41);
+    padding: 11px 7px 5px 7px;
+}
+#social-stackoverflow img {
+    width: 15px;
+}
+
 div#header #navigation {
     text-align: right;
+    float: right;
 }
 
 div#header #navigation a {
@@ -60,4 +90,12 @@ div.info {
     color: #555;
     font-size: 14px;
     font-style: italic;
+}
+
+a {
+    color: #a11712;
+}
+
+a:visited {
+    color: #776e0a;
 }
