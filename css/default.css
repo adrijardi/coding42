@@ -17,6 +17,10 @@ div#header {
     padding: 12px 0 12px 0;
 }
 
+div#logo {
+    height: 15px;
+}
+
 div#logo a {
     color: black;
     float: left;
@@ -25,8 +29,13 @@ div#logo a {
     text-decoration: none;
 }
 
+div#logo img {
+    width: 50px;
+}
+
 span#social {
     margin-left: 15px;
+    float: right;
 }
 
 #social a {
@@ -54,9 +63,13 @@ span#social {
     width: 15px;
 }
 
+div#header {
+    height: 46px;
+}
+
 div#header #navigation {
     text-align: right;
-    float: right;
+    float: left;
 }
 
 div#header #navigation a {
