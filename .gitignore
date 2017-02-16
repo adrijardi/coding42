@@ -2,3 +2,4 @@
 .stack-work/
 _cache/
 _site/
+**/Thumbs.db
