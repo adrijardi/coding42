@@ -2,7 +2,7 @@
 title: Getting started with Functional Programming
 ---
 
-Functional programming is not about learning an specific programming language, it's a paradigm and, whilst it's true that it will help
+Functional programming (FP) is not about learning an specific programming language, it's a paradigm and, whilst it's true that it will help
 you using a language that provides certain tools, nowadays most languages can allow functional programming to one or another degree.
 
 ## But, what does functional programming mean?
@@ -17,7 +17,7 @@ In FP operations are usually defined as combinations of functions (and higher or
 would be applied directly over the data one after another to provide an output.
 
 Regarding the question of what languages allow to do FP, you should notice that the requirements from the language itself are quite basic and
-most languages will allow you to write core on a functional way, but of course some of them are more oriented in this way and will provide more
+most languages will allow you to write code on a functional way, but of course some of them are more oriented in this way and will provide more
 tools to do it efficiently.
 
 ## So, what benefits does it bring?
