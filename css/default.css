@@ -90,6 +90,10 @@ div#footer {
     text-align: right;
 }
 
+#footer-left {
+    float: left;
+}
+
 h1 {
     font-size: 24px;
 }
