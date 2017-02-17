@@ -5,23 +5,50 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Coding 42 - $title$</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="/css/default.css" />
         <link rel="stylesheet" href="/css/socialicious.css" />
     </head>
     <body>
-        <div id="wrapper">
-            <div id="header">
+        <div id="image-overlay"></div>
+        <header>
+            <div class="container">
                 <div id="logo">
                     <a href="/"><img src="/images/logo.png" title="Coding 42"/></a>
                 </div>
 
-                <div id="navigation">
-                    <a href="/">Home</a>
-                    <a href="/about.html">About</a>
-                    <a href="/archive.html">Archive</a>
-                </div>
+                <nav>
 
-                <span id="social">
+                    <div class="hidden-xs">
+                        <a href="/">Home</a> |
+                        <a href="/about.html">About</a> |
+                        <a href="/archive.html">Archive</a>
+                    </div>
+                    <div id="mobile-nav" class="visible-xs">
+                        <script>
+                            function toggleMenuVisibility() {
+                                var menu = document.getElementById('mobile-menu');
+                                var btn = document.getElementById('mobile-menu-btn');
+                                if(menu.className === 'hidden-menu') {
+                                    menu.classList.remove('hidden-menu');
+                                    btn.classList.remove('hidden-menu');
+                                } else {
+                                    menu.classList.add('hidden-menu');
+                                    btn.classList.add('hidden-menu');
+                                }
+                            }
+                        </script>
+                        <span id="mobile-menu-btn" class="glyphicon glyphicon-menu-hamburger hidden-menu" aria-hidden="true"
+                        onclick="toggleMenuVisibility()"></span>
+                        <ul id="mobile-menu" class="hidden-menu">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/archive.html">Archive</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div id="social">
                     <a id="social-twitter" class="icon-twitter"
                        href="https://twitter.com/intent/tweet?screen_name=Adrijardi"></a>
 
@@ -31,17 +58,20 @@
                     <a id="social-stackoverflow" href="http://stackoverflow.com/users/817620/adrian-lopez">
                         <img src="/images/so.png"/>
                     </a>
-                </span>
-
+                </div>
             </div>
 
-            <div id="content">
-                <h1>$title$</h1>
-                $body$
-            </div>
+        </header>
+
+        <main class="container">
+            <h1>$title$</h1>
+            $body$
+
             $partial("templates/twitter.html")$
+        </main>
 
-            <div id="footer">
+        <footer>
+            <div class="container">
                 <div id="footer-left">
                     &copy; <a href="https://twitter.com/adrijardi">Adrián López</a>
                 </div>
@@ -50,7 +80,7 @@
                     <a target="_blank" href="http://jaspervdj.be/hakyll">Hakyll</a>
                 </div>
             </div>
-        </div>
+        </footer>
 
         $partial("templates/scripts.html")$
     </body>
