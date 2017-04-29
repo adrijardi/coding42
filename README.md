@@ -3,14 +3,6 @@ Personal blog
 
 Copyright &copy; Adrian Lopez
 
-## Prerequisites
-
-### Pandoc, required?
-
-    cabal update
-    cabal install pandoc --enable-tests
-    cabal install pandoc-citeproc
-    
 ## Build
 Powered by [Hakyll](https://jaspervdj.be/hakyll/)
 
