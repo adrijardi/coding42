@@ -186,11 +186,11 @@ h2 {
 }
 
 .img-80 {
-    width: 80%;
+    max-width: 800px;
 }
 
 .img-50 {
-    width: 50%;
+    max-width: 400px;
 }
 
 <!-- Code blocks pandoc -->
@@ -211,7 +211,7 @@ code > span.st { color: #4070a0; } /* String */
 code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
 code > span.ot { color: #007020; } /* Other */
 code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code > span.fu { color: #06287e; } /* Function */
+code > span.fu { color: #2c559f; } /* Function */
 code > span.er { color: #ff0000; font-weight: bold; } /* Error */
 code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 code > span.cn { color: #880000; } /* Constant */
