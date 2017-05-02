@@ -83,6 +83,9 @@ def newTexture(path: String): Try[Texture] = {
 convert that to the byte information and pass it to OpenGL, getting only an integer id back using `glTexImage2D`.
 
 ```scala
+
+case class Texture(id: Int, width: Int, height: Int)
+
 private[this] def loadOpenGL(image: BufferedImage): Texture = {
   val pixels = new Array[Int](image.getWidth * image.getHeight)
   image.getRGB(0, 0, image.getWidth, image.getHeight, pixels, 0, image.getWidth)
