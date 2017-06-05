@@ -1,5 +1,5 @@
 ---
-title: Build Scala applicationn using Jenkins pipelines inside Docker
+title: Build Scala application using Jenkins pipelines inside Docker
 ---
 
 Recently I run into the need to run Jenkins pipelines locally to produce a proof of concept. And so I
