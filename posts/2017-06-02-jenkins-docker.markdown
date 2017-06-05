@@ -107,6 +107,18 @@ detail as some of it is specific for my application, but it is important to ment
 you should only perform the operation `docker:stage` which will create a `Dockerfile`. This will in turn
 be used by the configured Docker tool.
 
+After the `Dockerfile` has been created, this code will invoke `docker build` to create the image,
+`docker.withTool('docker')` is required to specify the name Jenkins tool to use, change the name to whatever
+you called yours.
+
+``` groovy
+script {
+    docker.withTool('docker') {
+        docker.build('my-app:latest', 'target/docker/stage')
+    }
+}
+```
+
 Also, don't forget to wrap the calls to the docker tool with `script` of Jenkins will complaint.
 
 
