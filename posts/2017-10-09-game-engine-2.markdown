@@ -315,9 +315,10 @@ class Booter(config: GameConfig, resourceLoader: ResourceLoader, entitiesLoader:
 }
 ```
 
-
 ## Fix the texture
 I went through the texture loader and the sprite drawer. The issue was on the Sprite drawer, it used pixel values for 
 the texture coordinate when it had to use range from 0 to 1. Piece of cake.
 
 Next time we will improve the movement and add more components to the game
+
+You can see the sources for this project on https://github.com/adrijardi/right-miner

@@ -151,3 +151,5 @@ What is going on here? I'm obviously doing something wrong, but at this stage I 
 back to it later.  
 
 To be continued...
+
+You can see the sources for this project on https://github.com/adrijardi/right-miner

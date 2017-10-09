@@ -3,3 +3,4 @@
 _cache/
 _site/
 **/Thumbs.db
+*.iml
