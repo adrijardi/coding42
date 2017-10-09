@@ -152,4 +152,4 @@ back to it later.
 
 To be continued...
 
-You can see the sources for this project on https://github.com/adrijardi/right-miner
+You can see the sources for this project on [https://github.com/adrijardi/right-miner]
