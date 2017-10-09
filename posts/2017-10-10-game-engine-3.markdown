@@ -172,4 +172,4 @@ override def onCollisionEnter(collision: Collision)(world: World): World = {
 
 <img src="/images/posts/game-engine/with-block.png" alt="Mario has a friend" class="img-50" />
 
-You can see the sources for this project on https://github.com/adrijardi/right-miner
+You can see the sources for this project on <https://github.com/adrijardi/right-miner>
