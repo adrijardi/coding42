@@ -38,4 +38,23 @@ override protected[engine] def draw(world: World): Unit =
 
 <img src="/images/posts/game-engine/debug-collisions.png" alt="Mario moving" class="img-50" />
 
+I could find that there was a bug on the code to calculate the distance between two positions,
+here the fixed code:
+
+```scala
+object Position {
+
+  val zero: Position = Position(0,0,0)
+
+  def distance(a: Position, b: Position): Float = {
+    import Math._
+    val x = pow(a.x - b.x, 2)
+    val y = pow(a.y - b.y, 2)
+    val z = pow(a.z - b.z, 2)
+    sqrt(x + y + z).toFloat
+  }
+
+}
+```
+
 You can see the sources for this project on <https://github.com/adrijardi/right-miner>
