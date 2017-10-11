@@ -38,4 +38,4 @@ override protected[engine] def draw(world: World): Unit =
 
 <img src="/images/posts/game-engine/debug-collisions.png" alt="Mario moving" class="img-50" />
 
-You can see the sources for this project on [https://github.com/adrijardi/right-miner]
+You can see the sources for this project on <https://github.com/adrijardi/right-miner>
