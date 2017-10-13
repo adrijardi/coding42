@@ -36,7 +36,7 @@ override protected[engine] def draw(world: World): Unit =
     }
 ```
 
-<img src="/images/posts/game-engine/debug-collisions.png" alt="Mario moving" class="img-50" />
+<img src="/images/posts/game-engine/debug-collisions.png" alt="We can see collision 'kind of spheres'" class="img-50" />
 
 I could find that there was a bug on the code to calculate the distance between two positions,
 here the fixed code:
