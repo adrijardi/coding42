@@ -6,14 +6,15 @@
 body {
     color: black;
     font-size: 16px;
-    background-color: #fafafa;
+    background-image: url(/images/cream_pixels.png);
 }
 
 div#image-overlay {
     border-top: 10px solid #bbbbbb;
-    background-image: url(/images/bg.jpg);
+    background-image: url(/images/top.png);
     height: 278px;
     margin-bottom: -99px;
+    background-size: cover;
 }
 
 header {
@@ -96,6 +97,12 @@ div.social {
     color: #fff;
 }
 
+.social-github {
+    background-color: rgb(0,0,0);
+    padding: 11px 6px 5px 7px;
+    margin-right: 2px;
+}
+
 .social-twitter {
     background-color: rgb(41, 170, 225);
     padding: 11px 6px 5px 7px;
@@ -112,14 +119,22 @@ div.social {
     background-color: rgb(36, 39, 41);
     padding: 11px 1px 5px 7px;
 }
+
 .social-stackoverflow img {
     width: 15px;
     vertical-align: baseline;
     margin-right: 7px;
 }
 
+header .social a {
+    font-size: 1.5em;
+}
+header .social img {
+    width: 30px;
+}
+
 header div.social {
-    line-height: 73px;
+    margin-top: 17px;
 }
 
 footer {
@@ -129,8 +144,7 @@ footer {
     margin-top: 30px;
     padding: 12px 0 12px 0;
     text-align: right;
-    background-color: #37301F;
-    min-height: 200px;
+    background-color: #3a3a3a;
 }
 
 footer a {
@@ -152,7 +166,7 @@ a {
 }
 
 a:visited {
-    color: #776e0a;
+    color: #3a3a3a;
 }
 
 h1 {
