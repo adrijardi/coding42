@@ -1,0 +1,17 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - printenv
+      - curl https://gitlab.haskell.org/haskell/ghcup/raw/master/bootstrap-haskell -sSf | sh
+      - cabal install
+  build:
+    commands:
+      - cabal build
+      - cabal new-exec site build
+
+artifacts:
+  files:
+    - _site/**
+  discard-paths: yes
