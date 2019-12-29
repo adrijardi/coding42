@@ -9,3 +9,8 @@ distracted from my projects which get abandoned until I feel like coming back to
 I love keeping myself occupied by learning new skills and this is the reason I am also an amateur mechanic, electronics
 designer, robot builder and photographer as well as a DIY guy in general. My motto is that if something can be done, given enough time
 and dedication I can do it too.
+
+`Professional Summary`__
+
+.. _cv: /images/CV-adrian-lopez.pdf
+__ cv_
