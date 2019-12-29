@@ -123,18 +123,18 @@ div.social {
 .social-stackoverflow img {
     width: 15px;
     vertical-align: baseline;
-    margin-right: 7px;
+    margin-right: 5px;
 }
 
 header .social a {
     font-size: 1.5em;
 }
 header .social img {
-    width: 30px;
+    width: 25px;
 }
 
 header div.social {
-    margin-top: 17px;
+    margin-top: 22px;
 }
 
 footer {
@@ -166,7 +166,7 @@ a {
 }
 
 a:visited {
-    color: #3a3a3a;
+    color: #222;
 }
 
 h1 {
