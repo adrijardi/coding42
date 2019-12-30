@@ -20,7 +20,7 @@
     </div>
     <div class="contact-form col-md-4">
         <h3>Contact me</h3>
-        <form>
+        <form id="contact-form">
             <div class="form-group">
                 <label for="name-input">Name <span class="red">*</span></label>
                 <input id="name-input" class="form-control" name="Name"/>
@@ -36,6 +36,7 @@
                 <textarea id="message-input" class="form-control" name="message"></textarea>
             </div>
 
+            <div id="error-msg"></div>
             <button onClick="sendToAPI(event)" class="btn btn-lg">Send</button>
         </form>
 

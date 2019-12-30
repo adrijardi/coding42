@@ -223,6 +223,10 @@ label .red {
     color: #a12329;
 }
 
+#error-msg {
+    color: #a12329;
+}
+
 <!-- Code blocks pandoc -->
 
 div.sourceCode { overflow-x: auto; }
