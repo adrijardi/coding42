@@ -23,16 +23,11 @@ header {
     background-color: rgba(220, 220, 220, 0.6);
 }
 
+main a {
+    text-decoration: underline;
+}
 div#logo {
     float: left;
-}
-
-div#logo a {
-    color: black;
-    float: left;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 div#logo img {
@@ -205,6 +200,27 @@ h3 {
 
 .img-50 {
     max-width: 400px;
+}
+
+.contact-form {
+    background: rgb(171,171,171);
+    background: linear-gradient(180deg, rgba(171,171,171,1) 0%, rgba(222,223,223,1) 100%);
+    padding: 10px;
+}
+.contact-form h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+form label {
+    display: block;
+    color: #222;
+}
+
+label .red {
+    color: #a12329;
 }
 
 <!-- Code blocks pandoc -->
