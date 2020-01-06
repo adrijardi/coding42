@@ -5,7 +5,9 @@ function sendToAPI(e) {
   const email = document.getElementById("email-input").value;
   const message = document.getElementById("message-input").value;
   const errorMessage = document.getElementById("error-msg");
+  const messageSent = document.getElementById("sent-msg");
   errorMessage.innerHTML = '';
+  messageSent.style = "display:none;";
 
   const nameRegex = /[A-Za-z]{1}[A-Za-z]/;
   if (!nameRegex.test(name)) {
@@ -40,6 +42,7 @@ function sendToAPI(e) {
     body: JSON.stringify(data),
   }).then(function(data) {
     if(data.ok) {
+      messageSent.style = "display:block;";
       document.getElementById("contact-form").reset();
     } else {
       errorMessage.innerHTML = 'Error sending form';
