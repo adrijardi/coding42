@@ -23,7 +23,7 @@ header {
     background-color: rgba(220, 220, 220, 0.6);
 }
 
-main a {
+main a:hover {
     text-decoration: underline;
 }
 div#logo {
@@ -145,6 +145,9 @@ footer {
 footer a {
     color: #be9d5b;
 }
+footer a:visited {
+    color: #be9d5b;
+}
 
 #footer-left {
     float: left;
@@ -156,12 +159,12 @@ div.info {
     font-style: italic;
 }
 
-a {
+a, a:hover {
     color: #a11712;
 }
 
 a:visited {
-    color: #222;
+    color: #a11712;
 }
 
 h1 {
@@ -225,6 +228,10 @@ label .red {
 
 #error-msg {
     color: #a12329;
+}
+
+#sent-msg {
+    color: #585108;
 }
 
 <!-- Code blocks pandoc -->
