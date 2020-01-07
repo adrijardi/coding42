@@ -164,6 +164,10 @@ a, a:hover {
     color: #620e0b;
 }
 
+main a, main a:hover {
+    font-weight: bold;
+}
+
 main a:visited {
     color: #2c0605;
 }
