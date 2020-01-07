@@ -50,3 +50,6 @@ function sendToAPI(e) {
   });
 
 }
+
+const form = document.getElementById('contact-form');
+form.addEventListener('submit', sendToAPI);
