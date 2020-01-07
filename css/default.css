@@ -160,16 +160,16 @@ div.info {
 }
 
 a, a:hover {
-    color: #a11712;
+    color: #620e0b;
 }
 
-a:visited {
-    color: #a11712;
+main a:visited {
+    color: #2c0605;
 }
 
 h1 {
     font-size: 24px;
-    color: #5b1310;
+    color: #620e0b;
     font-weight: bold;
 }
 h1::before {
