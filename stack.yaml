@@ -1,4 +1,4 @@
-resolver: lts-18.10
+resolver: ghc-9.0.1
 packages:
 - '.'
 extra-deps: [
