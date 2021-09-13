@@ -22,19 +22,15 @@ main = do
                 route   idRoute
                 compile copyFileCompiler
 
-        match "js/*" $ do
-                route   idRoute
-                compile copyFileCompiler
-
         match "css/*" $ do
             route   idRoute
             compile compressCssCompiler
 
---        match (fromList ["about.rst"]) $ do
---            route   $ setExtension "html"
---            compile $ pandocCompiler
---                >>= loadAndApplyTemplate "templates/default.html" defaultContext
---                >>= relativizeUrls
+        match (fromList ["about.rst"]) $ do
+            route   $ setExtension "html"
+            compile $ pandocCompiler
+                >>= loadAndApplyTemplate "templates/default.html" defaultContext
+                >>= relativizeUrls
 
         match "posts/*" $ do
             route $ setExtension "html"
@@ -56,17 +52,6 @@ main = do
                     >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                     >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                     >>= relativizeUrls
-
-        create ["about.html"] $ do
-            route idRoute
-            compile $ do
-              let aboutCtx =
-                    constField "title" "About me"            `mappend`
-                    defaultContext
-              makeItem "" >>=
-                  loadAndApplyTemplate "templates/about.html" aboutCtx
-                  >>= loadAndApplyTemplate "templates/default.html" aboutCtx
-                  >>= relativizeUrls
 
         match "index.html" $ do
             route idRoute
