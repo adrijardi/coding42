@@ -1,11 +1,11 @@
 name:               coding42-blog
 version:            1.0.0.0
 build-type:         Simple
-cabal-version:      >= 1.10
+cabal-version:      >= 2.0
 
 executable site
   main-is:          site.hs
-  build-depends:    base == 4.15.*
+  build-depends:    base == 4.*
                   , hakyll == 4.14.1.0
   ghc-options:      -threaded
   default-language: Haskell2010

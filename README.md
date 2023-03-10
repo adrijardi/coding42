@@ -5,7 +5,7 @@ Copyright &copy; Adrian Lopez
 
 ## Build
 Powered by [Hakyll](https://jaspervdj.be/hakyll/)
-
+    cabal update
     cabal build
     cabal exec site build
 
