@@ -1,5 +1,5 @@
 ---
-title: Why I encourage to avoid overtime
+title: Avoid overtime
 ---
 
 As software engineers we work very demanding jobs that regularly require from us to deal with ambiguity, solving complex
@@ -26,20 +26,20 @@ big personal achievement, worth any sacrifice.
 
 There are, in my opinion several drawbacks of regularly working overtime for your company:
 
-- You take time away from other things you could do such as spending time friends and family but also, if you are
+- **You take time away from other things** you could do such as spending time friends and family but also, if you are
 career inclined, working on things focussed on advancing your career such as learning new technologies, working on 
 opensource or just exploring for fun.
-- You lower your own value and that of others as the company does not remunerate you for your time, your time and that
+- **You lower your own value and that of others** as the company does not remunerate you for your time, your time and that
 of your peers becomes less valuable, by working overtime the company does not need to hire more engineers and as you don't
 require payment for your extra work, why would they offer it?
-- It is a vicious cycle. Quite often this extra work is unknown even by peers, as it is preferable to be seen as an 
+- **It is a vicious cycle**. Quite often this extra work is unknown even by peers, as it is preferable to be seen as an 
 engineer that gets things done fast and clean rather than one that struggles with a task over a whole weekend, this leads
 to the size of tasks being hidden for future planning and the referenced time to completion being skewed. Now future you
 as well as your peers have as a baseline tasks that were created working plenty of hidden overtime.
-- You become less efficient when you are tired and this is particularly apparent on tasks that are considered as 
+- **You become less efficient** when you are tired and this is particularly apparent on tasks that are considered as 
 a constant trial and error; the task becomes repetitive, the brain enters in automatic and little to no progress is
 made for many hours.
-- This inevitably leads to dissatisfaction with your job and your carreer, which quite often ends with the person
+- **This inevitably leads to dissatisfaction** with your job and your career, which quite often ends with the person
 quitting their job, sometimes after months of under-performing. This obviously being a bad outcome for both the
 employee and the employer.
 
